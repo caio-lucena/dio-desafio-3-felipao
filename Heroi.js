@@ -1,4 +1,4 @@
-class Hero{
+class Heroi{
 
     constructor(nome, idade, tipo){
         this.nome = nome
@@ -45,8 +45,8 @@ class Hero{
 }
 
 
-let mago = new Hero("Mistivam", 300, "Blade")
-let guerreiro = new Hero("Arj o warden parrudo", 37, "guerreiro")
+let mago = new Heroi("Mistivam", 300, "Blade")
+let guerreiro = new Heroi("Arj o warden parrudo", 37, "guerreiro")
 
 mago.atacar()
 guerreiro.atacar()
